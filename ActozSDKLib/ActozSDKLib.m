@@ -28,7 +28,7 @@
          */
     }
     
-}
+}//
 -(void)requestFailed:(ASIHTTPRequest *)request
 {
     
