@@ -20,13 +20,13 @@
 }
 -(void)requestFinished:(ASIHTTPRequest *)request
 {
-    if([self checkFinishData:<#(ASIHTTPRequest *)#>])
+    /*
+    if([self checkFinishData:])
     {
         NSDictionary *dic = [self ParseJsonData:request.responseString];
-        /*
-         로그인 성공 화면 그려주자.
-         */
+       
     }
+     */
     
 }
 -(void)requestFailed:(ASIHTTPRequest *)request
