@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF50388217237A8C002E5EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF50388117237A8C002E5EF8 /* Foundation.framework */; };
+		AF50388717237A8C002E5EF8 /* ActozSDKLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF50388617237A8C002E5EF8 /* ActozSDKLib.h */; };
+		AF50388917237A8C002E5EF8 /* ActozSDKLib.m in Sources */ = {isa = PBXBuildFile; fileRef = AF50388817237A8C002E5EF8 /* ActozSDKLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF50387C17237A8C002E5EF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				AF50388717237A8C002E5EF8 /* ActozSDKLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF50387E17237A8C002E5EF8 /* libActozSDKLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libActozSDKLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF50388117237A8C002E5EF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF50388517237A8C002E5EF8 /* ActozSDKLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActozSDKLib-Prefix.pch"; sourceTree = "<group>"; };
+		AF50388617237A8C002E5EF8 /* ActozSDKLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActozSDKLib.h; sourceTree = "<group>"; };
+		AF50388817237A8C002E5EF8 /* ActozSDKLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActozSDKLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF50387B17237A8C002E5EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50388217237A8C002E5EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF50387517237A8C002E5EF8 = {
+			isa = PBXGroup;
+			children = (
+				AF50388317237A8C002E5EF8 /* ActozSDKLib */,
+				AF50388017237A8C002E5EF8 /* Frameworks */,
+				AF50387F17237A8C002E5EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF50387F17237A8C002E5EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF50387E17237A8C002E5EF8 /* libActozSDKLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF50388017237A8C002E5EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF50388117237A8C002E5EF8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF50388317237A8C002E5EF8 /* ActozSDKLib */ = {
+			isa = PBXGroup;
+			children = (
+				AF50388617237A8C002E5EF8 /* ActozSDKLib.h */,
+				AF50388817237A8C002E5EF8 /* ActozSDKLib.m */,
+				AF50388417237A8C002E5EF8 /* Supporting Files */,
+			);
+			path = ActozSDKLib;
+			sourceTree = "<group>";
+		};
+		AF50388417237A8C002E5EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF50388517237A8C002E5EF8 /* ActozSDKLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF50387D17237A8C002E5EF8 /* ActozSDKLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF50388C17237A8C002E5EF8 /* Build configuration list for PBXNativeTarget "ActozSDKLib" */;
+			buildPhases = (
+				AF50387A17237A8C002E5EF8 /* Sources */,
+				AF50387B17237A8C002E5EF8 /* Frameworks */,
+				AF50387C17237A8C002E5EF8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActozSDKLib;
+			productName = ActozSDKLib;
+			productReference = AF50387E17237A8C002E5EF8 /* libActozSDKLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF50387617237A8C002E5EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "구정현";
+			};
+			buildConfigurationList = AF50387917237A8C002E5EF8 /* Build configuration list for PBXProject "ActozSDKLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF50387517237A8C002E5EF8;
+			productRefGroup = AF50387F17237A8C002E5EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF50387D17237A8C002E5EF8 /* ActozSDKLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF50387A17237A8C002E5EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF50388917237A8C002E5EF8 /* ActozSDKLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF50388A17237A8C002E5EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF50388B17237A8C002E5EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF50388D17237A8C002E5EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ActozSDKLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActozSDKLib/ActozSDKLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF50388E17237A8C002E5EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ActozSDKLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActozSDKLib/ActozSDKLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF50387917237A8C002E5EF8 /* Build configuration list for PBXProject "ActozSDKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF50388A17237A8C002E5EF8 /* Debug */,
+				AF50388B17237A8C002E5EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF50388C17237A8C002E5EF8 /* Build configuration list for PBXNativeTarget "ActozSDKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF50388D17237A8C002E5EF8 /* Debug */,
+				AF50388E17237A8C002E5EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF50387617237A8C002E5EF8 /* Project object */;
+}
