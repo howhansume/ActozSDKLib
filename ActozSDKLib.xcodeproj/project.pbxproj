@@ -116,11 +116,6 @@
 		AF50387517237A8C002E5EF8 = {
 			isa = PBXGroup;
 			children = (
-				AF5038D217237AF1002E5EF8 /* CFNetwork.framework */,
-				AF5038D017237AEC002E5EF8 /* SystemConfiguration.framework */,
-				AF5038CE17237AE4002E5EF8 /* MobileCoreServices.framework */,
-				AF5038CC17237ADE002E5EF8 /* libz.dylib */,
-				AF5038CA17237AD9002E5EF8 /* CoreGraphics.framework */,
 				AF50388F17237AA2002E5EF8 /* ASI */,
 				AF5038A517237AA2002E5EF8 /* DefineHeader.h */,
 				AF5038A617237AA2002E5EF8 /* External */,
@@ -142,6 +137,11 @@
 		AF50388017237A8C002E5EF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF5038D217237AF1002E5EF8 /* CFNetwork.framework */,
+				AF5038D017237AEC002E5EF8 /* SystemConfiguration.framework */,
+				AF5038CE17237AE4002E5EF8 /* MobileCoreServices.framework */,
+				AF5038CC17237ADE002E5EF8 /* libz.dylib */,
+				AF5038CA17237AD9002E5EF8 /* CoreGraphics.framework */,
 				AF50388117237A8C002E5EF8 /* Foundation.framework */,
 			);
 			name = Frameworks;
