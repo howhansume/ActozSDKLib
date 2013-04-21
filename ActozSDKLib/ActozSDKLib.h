@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-//이거 업데이트 어케 함?
-@interface ActozSDKLib : NSObject
+#import <UIKit/UIKit.h>
+#import "ASIHTTPRequest.h"
+@interface ActozSDKLib : UIView<ASIHTTPRequestDelegate>
 
 @end
